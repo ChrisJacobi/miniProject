@@ -1,0 +1,47 @@
+@import "_var";
+
+body {
+	background-color: $background;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin: 4rem 0.5rem;
+	#title {
+		margin: 10rem 0 3rem 0;
+		font-size: 4rem;
+		color: #000814;
+	}
+	#counter {
+		font-size: 2.5rem;
+		color: $textColor;
+	}
+}
+
+#btnContainer {
+	display: flex;
+	justify-content: center;
+	#btn {
+		width: 55%;
+		height: 7rem;
+		border-radius: 1rem;
+		background-color: $btnColor;
+		cursor: pointer;
+	}
+	#btn:hover {
+		background-color: $btnHover;
+	}
+}
+
+#popUp {
+	text-align: center;
+	margin-top: 4rem;
+	font-size: 1.5rem;
+}
+
+.dNone {
+	display: none;
+}

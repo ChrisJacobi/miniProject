@@ -1,0 +1,56 @@
+body {
+  background-color: #4CC9F0;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 4rem 0.5rem;
+}
+header #title {
+  margin: 10rem 0 3rem 0;
+  font-size: 4rem;
+  color: #000814;
+}
+header #counter {
+  font-size: 2.5rem;
+  color: #001D3D;
+}
+
+#btnContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#btnContainer #btn {
+  width: 55%;
+  height: 7rem;
+  border-radius: 1rem;
+  background-color: #FFC300;
+  cursor: pointer;
+}
+#btnContainer #btn:hover {
+  background-color: #FFD60A;
+}
+
+#popUp {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 1.5rem;
+}
+
+.dNone {
+  display: none;
+}
